@@ -7,7 +7,7 @@
   <meta name="description" content="Triển lãm số về hệ thống di tích lịch sử kháng chiến tại Quảng Bình và Quảng Trị, biên soạn từ tài liệu Giáo dục địa phương lớp 10 và lớp 11.">
   <meta name="theme-color" content="#161311">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%238d2424' width='32' height='32'/%3E%3Crect fill='%23c6ae80' x='14' y='4' width='4' height='24'/%3E%3C/svg%3E">
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 </head>
@@ -60,7 +60,7 @@
       </div>
       <div class="wrap ticket">
         <div>
-          <strong>11</strong>
+          <strong>7</strong>
           <span>di tích trong danh mục</span>
         </div>
         <div>
@@ -82,8 +82,8 @@
         </div>
         <div class="intro-grid">
           <div class="prose">
-            <p class="drop">Quảng Bình và Quảng Trị nằm trên đoạn đất hẹp nhất của dải miền Trung, nơi đường tiếp tế, dòng sông và vĩ tuyến đều trở thành lịch sử. Tài liệu Giáo dục địa phương — bài lớp 10 với Quảng Bình, bài lớp 11 với Quảng Trị — chọn mười một di tích để học sinh thấy rõ mạch ấy: căn cứ, bến phà, hang đá, địa đạo, thành lũy, nghĩa trang và nhà tù.</p>
-            <p>Triển lãm giữ nguyên cách phân phòng theo tài liệu gốc. Phòng Quảng Bình (Bài 6, lớp 10) đi theo tuyến chi viện: chiến khu, bến phà, hang đá, đường Trường Sơn. Phòng Quảng Trị (Chủ đề 2, lớp 11) dừng ở các di tích quốc gia đặc biệt: Thành cổ và 81 ngày đêm, đôi bờ Hiền Lương – Bến Hải, địa đạo Vịnh Mốc, đường Trường Sơn và nghĩa trang. Mỗi hiện vật ghi địa điểm, vai trò và mốc xếp hạng theo tài liệu.</p>
+            <p class="drop">Quảng Bình và Quảng Trị nằm trên đoạn đất hẹp nhất của dải miền Trung, nơi đường tiếp tế, dòng sông và vĩ tuyến đều trở thành lịch sử. Tài liệu chọn bảy di tích để học sinh thấy rõ mạch ấy: căn cứ, bến phà, hang đá, đường Trường Sơn, thành lũy, đôi bờ giới tuyến và địa đạo.</p>
+            <p>Triển lãm giữ cách phân phòng theo địa bàn. Phòng Quảng Bình gồm chiến khu Trung Thuần, bến phà Gianh và Hang Tám Cô. Phòng Quảng Trị dừng ở các di tích quốc gia đặc biệt: hệ thống Đường Trường Sơn – Đường Hồ Chí Minh, Thành cổ và 81 ngày đêm, đôi bờ Hiền Lương – Bến Hải, địa đạo Vịnh Mốc. Mỗi hiện vật ghi địa điểm, vai trò và mốc xếp hạng theo tài liệu.</p>
             <p>Ảnh trong phòng trưng bày là tư liệu thị giác đi kèm. Những bức ghi rõ tên di tích được gắn với hiện vật tương ứng. Bốn bức còn lại — công sự, đài tưởng niệm, bậc đền và quần thể bên mặt nước — được treo riêng ở phòng tranh, vì khung hình không đủ chữ để gọi tên thay cho di tích.</p>
           </div>
           <aside class="route">
@@ -91,11 +91,10 @@
             <ol>
               <li><a href="#trung-thuan">Chiến khu Trung Thuần</a><small>Quảng Trạch · căn cứ Cần Vương</small></li>
               <li><a href="#ben-pha-gianh">Bến phà Gianh</a><small>Sông Gianh · đầu mối chi viện</small></li>
-              <li><a href="#duong-truong-son">Đường Trường Sơn</a><small>Xuyên Quảng Bình</small></li>
-              <li><a href="#vinh-moc">Địa đạo Vịnh Mốc</a><small>Vĩnh Linh · làng trong lòng đất</small></li>
-              <li><a href="#hien-luong">Hiền Lương – Bến Hải</a><small>Vĩ tuyến 17</small></li>
+              <li><a href="#duong-truong-son">Đường Trường Sơn</a><small>Trên địa bàn Quảng Trị</small></li>
               <li><a href="#thanh-co">Thành cổ Quảng Trị</a><small>81 ngày đêm năm 1972</small></li>
-              <li><a href="#truong-son">Nghĩa trang Trường Sơn</a><small>Hơn 10.200 phần mộ</small></li>
+              <li><a href="#hien-luong">Hiền Lương – Bến Hải</a><small>Vĩ tuyến 17</small></li>
+              <li><a href="#vinh-moc">Địa đạo Vịnh Mốc</a><small>Vĩnh Linh · làng trong lòng đất</small></li>
             </ol>
           </aside>
         </div>
@@ -133,8 +132,8 @@
           <article class="beat">
             <time datetime="1940">Thời Pháp thuộc</time>
             <div>
-              <h3>Nhà tù và chiến khu</h3>
-              <p>Lao Bảo là một trong những nhà tù lớn nhất Trung Kỳ. Trong kháng chiến chống Pháp, Trung Thuần trở thành chiến khu của Đại đội 365.</p>
+              <h3>Chiến khu Trung Thuần</h3>
+              <p>Trong kháng chiến chống Pháp, Trung Thuần trở thành chiến khu của Đại đội 365.</p>
             </div>
           </article>
           <article class="beat">
@@ -148,14 +147,14 @@
             <time datetime="1965">Những năm chống Mỹ</time>
             <div>
               <h3>Mạch chi viện xuyên Trường Sơn</h3>
-              <p>Đường 15 và các tuyến ngang 12A, 20, 10, 16; phà Gianh; phà Xuân Sơn giấu trong động Phong Nha ban ngày; địa đạo Vịnh Mốc nuôi một làng dưới đất đỏ bazan.</p>
+              <p>Hệ thống Đường Trường Sơn – Đường Hồ Chí Minh chạy qua địa bàn Quảng Trị; phà Gianh giữ mạch chi viện; địa đạo Vịnh Mốc nuôi một làng dưới đất đỏ bazan.</p>
             </div>
           </article>
           <article class="beat">
             <time datetime="1972">1972</time>
             <div>
-              <h3>Mùa lửa của ba địa chỉ</h3>
-              <p>Ngày 2 tháng 7, 13 chiến sĩ trạm thông tin ở Hang Lèn Hà hy sinh. Thành cổ Quảng Trị trải qua 81 ngày đêm. Ngày 14 tháng 11, tám thanh niên xung phong mắc kẹt trong hang trên Đường 20 Quyết Thắng.</p>
+              <h3>Mùa lửa năm 1972</h3>
+              <p>Thành cổ Quảng Trị trải qua 81 ngày đêm. Ngày 14 tháng 11, tám thanh niên xung phong mắc kẹt trong hang trên Đường 20 Quyết Thắng.</p>
             </div>
           </article>
           <article class="beat">
@@ -173,14 +172,11 @@
       <div class="wrap">
         <p class="room-no">Phòng 03</p>
         <h2>Quảng Bình</h2>
-        <p class="chapter-lead">Sáu di tích trên địa bàn tỉnh: căn cứ lâu đời, hai bến phà, một hang tưởng niệm, tuyến đường Trường Sơn và trạm thông tin lưng chừng núi.</p>
+        <p class="chapter-lead">Ba di tích trên địa bàn tỉnh: căn cứ lâu đời, bến phà trên sông Gianh và hang tưởng niệm tám thanh niên xung phong.</p>
         <ul class="index-pills">
           <li><a href="#trung-thuan">01 Trung Thuần</a></li>
           <li><a href="#ben-pha-gianh">02 Phà Gianh</a></li>
-          <li><a href="#hang-tam">03 Hang Tám</a></li>
-          <li><a href="#duong-truong-son">04 Trường Sơn</a></li>
-          <li><a href="#xuan-son">05 Xuân Sơn</a></li>
-          <li><a href="#len-ha">06 Lèn Hà</a></li>
+          <li><a href="#hang-tam">03 Hang Tám Cô</a></li>
         </ul>
       </div>
     </header>
@@ -198,7 +194,7 @@
           <div class="label">
             <p class="kicker">Quảng Bình · Di tích quốc gia 1995</p>
             <h3>Chiến khu Trung Thuần</h3>
-            <p class="place">Xã Quảng Lưu và Quảng Thạch, huyện Quảng Trạch</p>
+            <p class="place">Xã Trung Thuần, tỉnh Quảng Trị</p>
             <hr class="rule">
             <p>Thung lũng bán sơn địa hình chữ U thuộc xã Quảng Lưu và Quảng Thạch (huyện Quảng Trạch), bao bởi đỉnh Chóp Chài cao hơn 1.000 m. Đây là vùng đất người Việt cổ và người Chăm; từng phát hiện trống đồng Phù Lưu, Đông Sơn I, lưỡi câu và rìu đồng. Cuối thế kỷ XIX, Trung Thuần là căn cứ của cụ Lê Trực trong phong trào Cần Vương.</p>
             <p>Kháng chiến chống Pháp, đây là chiến khu của Đại đội 365 bộ đội Quảng Bình, với hầm trú ẩn, kho tàng, bệnh viện dã chiến. Kháng chiến chống Mỹ, nơi trú quân của đơn vị B70, binh chủng Thông tin, Ra đa, Pháo binh. Tại đây diễn ra Lễ xuất quân chiến dịch Nam Lào do Thượng tướng Hoàng Văn Thái phát động, và Lễ tổng kết chiến thắng Đường 9 – Nam Lào do Đại tướng Võ Nguyên Giáp chủ trì.</p>
@@ -221,7 +217,7 @@
           <div class="label">
             <p class="kicker">Quảng Bình · Di tích quốc gia 1998</p>
             <h3>Bến phà Gianh</h3>
-            <p class="place">Phường Quảng Thuận, thị xã Ba Đồn và xã Hạ Trạch, huyện Bố Trạch</p>
+            <p class="place">Phường Bắc Gianh, tỉnh Quảng Trị.</p>
             <hr class="rule">
             <p>Sông Gianh từng là ranh giới Trịnh – Nguyễn thế kỷ XVII và là đầu mối chi viện miền Nam trong kháng chiến chống Mỹ. Bến phà số 1 do chính quyền Pháp xây năm 1918; bến phà số 2 xây năm 1960, thuộc phường Quảng Thuận (thị xã Ba Đồn) nối với xã Hạ Trạch (huyện Bố Trạch).</p>
             <p>Từ năm 1965 đến cuối 1972, Mỹ đánh phá phà Gianh tổng cộng 2.191 trận lớn nhỏ; bình quân mỗi mét vuông mặt nước chịu 1,1 tấn bom. Phà Gianh được xếp hạng Di tích lịch sử cấp quốc gia năm 1998. Cầu Gianh đã được xây dựng, tạo điều kiện giao thông thuận lợi cho người dân.</p>
@@ -245,10 +241,10 @@
           </figure>
           <div class="label">
             <p class="kicker">Quảng Bình · Đường 20 Quyết Thắng</p>
-            <h3>Hang Tám thanh niên xung phong</h3>
+            <h3>Hang Tám Cô</h3>
             <p class="place">Xã Tân Trạch, huyện Bố Trạch</p>
             <hr class="rule">
-            <p>Hang thuộc xã Tân Trạch, huyện Bố Trạch, trên cung đường 20 Quyết Thắng, cách Đồng Hới khoảng 55 km về hướng tây bắc. Ngày 14/11/1972, máy bay Mỹ ném bom cày nát đường 20 và đánh sập hang trú ẩn của 8 thanh niên xung phong (4 nam, 4 nữ) thuộc Đoàn 559, quê huyện Hoằng Hóa, Thanh Hóa. Đồng đội tìm đủ mọi cách mở cửa hang nhưng không thành; cả tám chiến sĩ đã hy sinh khi tuổi đời còn rất trẻ.</p>
+            <p>Hang thuộc xã Thượng Trạch, tỉnh Quảng Trị, trên cung đường 20 Quyết Thắng, cách Đồng Hới khoảng 55 km về hướng tây bắc. Ngày 14/11/1972, máy bay Mỹ ném bom cày nát đường 20 và đánh sập hang trú ẩn của 8 thanh niên xung phong (4 nam, 4 nữ) thuộc Đoàn 559, quê huyện Hoằng Hóa, Thanh Hóa. Đồng đội tìm đủ mọi cách mở cửa hang nhưng không thành; cả tám chiến sĩ đã hy sinh khi tuổi đời còn rất trẻ.</p>
             <p>Ngày 16/5/2009, trong Lễ kỷ niệm 50 năm ngày truyền thống bộ đội Trường Sơn, Chủ tịch nước ký quyết định công nhận tập thể Anh hùng cho các thanh niên xung phong hy sinh tại hang. Năm 2010, di tích được xây dựng khang trang, trở thành địa chỉ đỏ của du khách và nhân dân địa phương.</p>
             <dl class="facts">
               <dt>Sự kiện</dt>
@@ -258,78 +254,6 @@
             </dl>
           </div>
           <div class="sitemap" data-map="hang-tam"></div>
-        </article>
-
-        <article class="exhibit reverse" id="duong-truong-son">
-          <figure class="media frame">
-            <img src="assets/images/duong-truong-son.jpg" alt="Đường nhựa xuyên qua đồi núi xanh của dãy Trường Sơn, một bên là ta-luy bê tông" data-zoom>
-            <figcaption>
-              <span>04</span>
-              <span>Tuyến đường hôm nay</span>
-            </figcaption>
-          </figure>
-          <div class="label">
-            <p class="kicker">Quảng Bình · Tuyến chiến lược</p>
-            <h3>Đường Trường Sơn – đường Hồ Chí Minh</h3>
-            <p class="place">Địa bàn tỉnh Quảng Bình, nối Bắc – Nam và sang Lào</p>
-            <hr class="rule">
-            <p>Quảng Bình là nút giao thông hàng đầu trên mạch chi viện cho chiến trường miền Nam. Tuyến dọc Đường 15 dài 285 km, từ Tuyên Hóa đến Vĩnh Linh. Bốn tuyến ngang vượt dãy Trường Sơn: Đường 12A dài 44 km, Đường 20 Quyết Thắng dài 123 km, Đường 10 mở năm 1967, Đường 16 dài 40 km.</p>
-            <p>Cụm di tích tiêu biểu trong tài liệu gồm Ngầm Khe Rinh, Hang Hóa Tiến, Sở chỉ huy Đoàn 559, Đèo Đá Đẽo, Bến phà Long Đại, Km0 Đường 10, Suối Bang – Làng Ho. Bức ảnh ghi hình hài đương đại của cung đường xuyên núi, không phải một cây số lịch sử riêng lẻ.</p>
-            <dl class="facts">
-              <dt>Tuyến dọc</dt>
-              <dd>Đường 15 · 285 km</dd>
-              <dt>Tuyến ngang</dt>
-              <dd>12A · 20 Quyết Thắng · 10 · 16</dd>
-            </dl>
-          </div>
-          <div class="sitemap" data-map="duong-truong-son"></div>
-        </article>
-
-        <article class="exhibit" id="xuan-son">
-          <div class="plate" data-mark="05">
-            <span class="plate-kicker">Hiện vật 05 · Binh trạm 14</span>
-            <div class="plate-split">
-              <p><strong>Đêm</strong><span>Cầu phao cho hàng nghìn xe vượt sông.</span></p>
-              <p><strong>Ngày</strong><span>Tháo phà, cất trong động Phong Nha.</span></p>
-            </div>
-          </div>
-          <div class="label">
-            <p class="kicker">Quảng Bình · Di tích quốc gia đặc biệt</p>
-            <h3>Bến phà Xuân Sơn</h3>
-            <p class="place">Thị trấn Phong Nha, huyện Bố Trạch</p>
-            <hr class="rule">
-            <p>Bến phà Xuân Sơn thuộc địa phận xã Sơn Trạch (nay là thị trấn Phong Nha, huyện Bố Trạch), là điểm di tích quốc gia đặc biệt thuộc cụm đường Trường Sơn – đường Hồ Chí Minh. Lực lượng bảo vệ lúc đầu do Ty Giao thông Quảng Bình đảm nhận, sau do Đại đội 16 cầu phà thuộc Binh trạm 14 phụ trách. Ban đêm lắp cầu phao (đêm đầu có 1.200 xe vượt sông, đêm thứ hai gần 2.000 xe); từ 4 giờ sáng tháo gỡ, cất giấu ca nô và phà trong động Phong Nha.</p>
-            <dl class="facts">
-              <dt>Đơn vị</dt>
-              <dd>Binh trạm 14</dd>
-              <dt>Xếp hạng</dt>
-              <dd>Di tích quốc gia đặc biệt</dd>
-            </dl>
-          </div>
-          <div class="sitemap" data-map="xuan-son"></div>
-        </article>
-
-        <article class="exhibit reverse" id="len-ha">
-          <div class="plate" data-mark="06">
-            <span class="plate-kicker">Hiện vật 06 · Trạm cơ vụ A69</span>
-            <p class="plate-figure">13</p>
-            <p class="plate-unit">chiến sĩ hy sinh ngày 2 tháng 7 năm 1972, trong đó 10 nữ chiến sĩ. Mạch thông tin được nối lại.</p>
-          </div>
-          <div class="label">
-            <p class="kicker">Quảng Bình · Thông tin liên lạc</p>
-            <h3>Hang Lèn Hà</h3>
-            <p class="place">Lưng chừng núi Lèn Hà, xã Thanh Hóa, huyện Tuyên Hóa</p>
-            <hr class="rule">
-            <p>Hang Lèn Hà thuộc xã Thanh Hóa, huyện Tuyên Hóa, cách đường 15A khoảng 3 km; nằm lưng chừng núi, độ cao khoảng 150 m. Hang được Trạm cơ vụ A69 (Đại đội 9, Trung đoàn 134, Bộ Tư lệnh Thông tin Liên lạc) cải tạo thành nơi đặt máy điện đàm và kho dự trữ chi viện miền Nam. Trạm bảo đảm thông tin Bắc – Nam từ Hà Nội đến đường 9 – Nam Lào.</p>
-            <p>Lúc 13 giờ 25 phút ngày 02/7/1972, máy bay Mỹ đánh phá; 13 chiến sĩ anh dũng hy sinh (trong đó 10 nữ). Chỉ sau khoảng một giờ, thông tin liên lạc đã được khôi phục thông suốt.</p>
-            <dl class="facts">
-              <dt>Đơn vị</dt>
-              <dd>Trung đoàn 134 · Trạm A69</dd>
-              <dt>Sự kiện</dt>
-              <dd>02.07.1972</dd>
-            </dl>
-          </div>
-          <div class="sitemap" data-map="len-ha"></div>
         </article>
       </div>
     </div>
@@ -347,24 +271,48 @@
       <div class="wrap">
         <p class="room-no">Phòng 04</p>
         <h2>Quảng Trị</h2>
-        <p class="chapter-lead">Năm di tích của tỉnh đứng trên giới tuyến, trong lòng đất, trong thành lũy, ngoài nghĩa trang và trong một nhà tù thời Pháp.</p>
+        <p class="chapter-lead">Bốn di tích của tỉnh: hệ thống đường Trường Sơn – Hồ Chí Minh, thành lũy 81 ngày đêm, đôi bờ giới tuyến và làng trong lòng đất.</p>
         <ul class="index-pills">
-          <li><a href="#thanh-co">07 Thành cổ</a></li>
-          <li><a href="#vinh-moc">08 Vịnh Mốc</a></li>
-          <li><a href="#hien-luong">09 Hiền Lương</a></li>
-          <li><a href="#truong-son">10 Trường Sơn</a></li>
-          <li><a href="#lao-bao">11 Lao Bảo</a></li>
+          <li><a href="#duong-truong-son">04 Trường Sơn</a></li>
+          <li><a href="#thanh-co">05 Thành cổ</a></li>
+          <li><a href="#hien-luong">06 Hiền Lương</a></li>
+          <li><a href="#vinh-moc">07 Vịnh Mốc</a></li>
         </ul>
       </div>
     </header>
 
     <div class="room room-night">
       <div class="wrap">
-        <article class="exhibit" id="thanh-co">
+        <article class="exhibit" id="duong-truong-son">
+          <figure class="media frame">
+            <img src="assets/images/duong-truong-son.jpg" alt="Đường nhựa xuyên qua đồi núi xanh của dãy Trường Sơn, một bên là ta-luy bê tông" data-zoom>
+            <figcaption>
+              <span>04</span>
+              <span>Tuyến đường hôm nay</span>
+            </figcaption>
+          </figure>
+          <div class="label">
+            <p class="kicker">Quảng Trị · Di tích quốc gia đặc biệt 2013</p>
+            <h3>Hệ thống Đường Trường Sơn – Đường Hồ Chí Minh</h3>
+            <p class="place">Trên địa bàn tỉnh Quảng Trị</p>
+            <hr class="rule">
+            <p>Hệ thống di tích Đường Trường Sơn – Đường Hồ Chí Minh trên địa bàn Quảng Trị gồm các điểm: cầu treo Bến Tắt, cầu treo Đakrông, Khe Hố, Sở Chỉ huy Bộ Tư lệnh 559, cảng quân sự Đông Hà, bến thuyền làng Mai Xá và Nghĩa trang Liệt sĩ Quốc gia Trường Sơn. Cụm di tích được xếp hạng quốc gia đặc biệt năm 2013 (Quyết định số 2383/QĐ-TTg), bổ sung năm 2018.</p>
+            <p>Đây là mạch chi viện chiến lược “Xẻ dọc Trường Sơn đi cứu nước”, nơi các điểm trên địa bàn tỉnh cùng ghi dấu tuyến đường bộ đội và thanh niên xung phong mở qua dãy Trường Sơn.</p>
+            <dl class="facts">
+              <dt>Địa bàn</dt>
+              <dd>Tỉnh Quảng Trị</dd>
+              <dt>Xếp hạng</dt>
+              <dd>Quốc gia đặc biệt · 2013</dd>
+            </dl>
+          </div>
+          <div class="sitemap" data-map="duong-truong-son"></div>
+        </article>
+
+        <article class="exhibit reverse" id="thanh-co">
           <figure class="media frame">
             <img src="assets/images/thanh-co.jpg" alt="Thành cổ Quảng Trị nhìn từ trên cao, hình vuông, hào nước và những lối đi cắt qua thảm cây xanh" data-zoom>
             <figcaption>
-              <span>07</span>
+              <span>05</span>
               <span>Mặt bằng thành hôm nay</span>
             </figcaption>
           </figure>
@@ -385,36 +333,11 @@
           <div class="sitemap" data-map="thanh-co"></div>
         </article>
 
-        <article class="exhibit reverse" id="vinh-moc">
-          <figure class="media frame">
-            <img src="assets/images/vinh-moc.jpg" alt="Đường hầm đất đỏ được chiếu sáng ấm, hai bên tường có khung ảnh và ô cửa nhỏ" data-zoom>
-            <figcaption>
-              <span>08</span>
-              <span>Lối đi trong địa đạo</span>
-            </figcaption>
-          </figure>
-          <div class="label">
-            <p class="kicker">Quảng Trị · Di tích quốc gia đặc biệt 2014</p>
-            <h3>Địa đạo Vịnh Mốc và hệ thống làng hầm Vĩnh Linh</h3>
-            <p class="place">Vịnh Mốc, huyện Vĩnh Linh</p>
-            <hr class="rule">
-            <p>Năm 2014, Địa đạo Vịnh Mốc và hệ thống làng hầm Vĩnh Linh (8 di tích thành phần) được xếp hạng di tích quốc gia đặc biệt (Quyết định số 2408/QĐ-TTg ngày 31/12/2014). Đây là công trình kiến trúc quân sự dưới lòng đất thời kháng chiến chống Mỹ, với khẩu hiệu “quân sự hóa toàn dân, công sự hóa toàn khu vực”.</p>
-            <p>Hầm hào bố trí trụ sở, kho hậu cần, trường học, bệnh viện, khu sinh hoạt gia đình; nối thông bằng giao thông hào. Công trình thể hiện ý chí “một tấc không đi, một li không rời”, bám đất giữ làng, chi viện đảo Cồn Cỏ và bảo vệ vùng giới tuyến.</p>
-            <dl class="facts">
-              <dt>Xếp hạng</dt>
-              <dd>Quốc gia đặc biệt · 2014</dd>
-              <dt>Ý chí</dt>
-              <dd>“Một tấc không đi, một li không rời”</dd>
-            </dl>
-          </div>
-          <div class="sitemap" data-map="vinh-moc"></div>
-        </article>
-
         <article class="exhibit" id="hien-luong">
           <figure class="media frame">
             <img src="assets/images/hien-luong.jpg" alt="Cầu Hiền Lương bắc qua sông Bến Hải, cột cờ đỏ sao vàng và tượng đài bên quần thể hình tròn" data-zoom>
             <figcaption>
-              <span>09</span>
+              <span>06</span>
               <span>Đôi bờ và nhịp cầu</span>
             </figcaption>
           </figure>
@@ -435,51 +358,29 @@
           <div class="sitemap" data-map="hien-luong"></div>
         </article>
 
-        <article class="exhibit reverse" id="truong-son">
+        <article class="exhibit reverse" id="vinh-moc">
           <figure class="media frame">
-            <img src="assets/images/truong-son-dem.jpg" alt="Nghĩa trang về đêm: hàng nghìn ngọn đèn thắp thành ô vuông, hai ngôi tháp mái cong sáng đèn giữa khu mộ" data-zoom>
+            <img src="assets/images/vinh-moc.jpg" alt="Đường hầm đất đỏ được chiếu sáng ấm, hai bên tường có khung ảnh và ô cửa nhỏ" data-zoom>
             <figcaption>
-              <span>10</span>
-              <span>Đêm thắp đèn trên các phần mộ</span>
+              <span>07</span>
+              <span>Lối đi trong địa đạo</span>
             </figcaption>
           </figure>
           <div class="label">
-            <p class="kicker">Quảng Trị · Di tích quốc gia đặc biệt</p>
-            <h3>Nghĩa trang Liệt sĩ Quốc gia Trường Sơn</h3>
-            <p class="place">Bến Tắt, huyện Gio Linh</p>
+            <p class="kicker">Quảng Trị · Di tích quốc gia đặc biệt 2014</p>
+            <h3>Địa đạo Vịnh Mốc và hệ thống làng hầm Vĩnh Linh</h3>
+            <p class="place">Vịnh Mốc, huyện Vĩnh Linh</p>
             <hr class="rule">
-            <p>Nghĩa trang là một trong 7 điểm di tích Đường Trường Sơn – Đường Hồ Chí Minh trên địa bàn Quảng Trị (cùng cầu treo Bến Tắt, cầu treo Đakrông, Khe Hố, Sở Chỉ huy Bộ Tư lệnh 559, cảng quân sự Đông Hà, bến thuyền làng Mai Xá). Cụm di tích được xếp hạng quốc gia đặc biệt năm 2013 (Quyết định số 2383/QĐ-TTg), bổ sung năm 2018.</p>
-            <p>Đây là nơi tri ân quy mô lớn các anh hùng liệt sĩ ngã xuống trên tuyến đường chiến lược Trường Sơn – biểu tượng “Xẻ dọc Trường Sơn đi cứu nước”.</p>
+            <p>Năm 2014, Địa đạo Vịnh Mốc và hệ thống làng hầm Vĩnh Linh (8 di tích thành phần) được xếp hạng di tích quốc gia đặc biệt (Quyết định số 2408/QĐ-TTg ngày 31/12/2014). Đây là công trình kiến trúc quân sự dưới lòng đất thời kháng chiến chống Mỹ, với khẩu hiệu “quân sự hóa toàn dân, công sự hóa toàn khu vực”.</p>
+            <p>Hầm hào bố trí trụ sở, kho hậu cần, trường học, bệnh viện, khu sinh hoạt gia đình; nối thông bằng giao thông hào. Công trình thể hiện ý chí “một tấc không đi, một li không rời”, bám đất giữ làng, chi viện đảo Cồn Cỏ và bảo vệ vùng giới tuyến.</p>
             <dl class="facts">
-              <dt>Trong cụm</dt>
-              <dd>Đường Trường Sơn – Hồ Chí Minh tại Quảng Trị</dd>
               <dt>Xếp hạng</dt>
-              <dd>Quốc gia đặc biệt · 2013</dd>
+              <dd>Quốc gia đặc biệt · 2014</dd>
+              <dt>Ý chí</dt>
+              <dd>“Một tấc không đi, một li không rời”</dd>
             </dl>
           </div>
-          <div class="sitemap" data-map="truong-son"></div>
-        </article>
-
-        <article class="exhibit" id="lao-bao">
-          <div class="plate" data-mark="11">
-            <span class="plate-kicker">Hiện vật 11 · Thời Pháp thuộc</span>
-            <p class="plate-figure">Lao Bảo</p>
-            <p class="plate-unit">Một trong những nhà tù lớn nhất Trung Kỳ.</p>
-          </div>
-          <div class="label">
-            <p class="kicker">Quảng Trị · Nhà tù</p>
-            <h3>Nhà tù Lao Bảo</h3>
-            <p class="place">Thị trấn Lao Bảo, huyện Hướng Hóa</p>
-            <hr class="rule">
-            <p>Nhà tù giam giữ và tra tấn nhiều chiến sĩ cách mạng kiên trung. Trong danh mục lớp 11, Lao Bảo là chứng tích của thời Pháp thuộc trên miền Tây Quảng Trị, trước khi mạch sử của tỉnh chuyển sang vĩ tuyến, địa đạo và thành cổ.</p>
-            <dl class="facts">
-              <dt>Thời kỳ</dt>
-              <dd>Pháp thuộc · Trung Kỳ</dd>
-              <dt>Vai trò</dt>
-              <dd>Giam giữ chiến sĩ cách mạng</dd>
-            </dl>
-          </div>
-          <div class="sitemap" data-map="lao-bao"></div>
+          <div class="sitemap" data-map="vinh-moc"></div>
         </article>
       </div>
     </div>
@@ -549,7 +450,7 @@
             <button type="button" data-filter="qb" aria-pressed="false">Quảng Bình</button>
             <button type="button" data-filter="qt" aria-pressed="false">Quảng Trị</button>
           </div>
-          <p id="count">11 di tích</p>
+          <p id="count">7 di tích</p>
         </div>
         <div class="catalog-wrap">
           <table>
@@ -577,68 +478,40 @@
                 <td>TX. Ba Đồn và H. Bố Trạch</td>
                 <td>Đầu mối chi viện miền Nam; 2.191 trận (1965–1972), 1,1 tấn bom/m²; di tích quốc gia năm 1998.</td>
               </tr>
-              <tr data-row data-province="qb" data-hay="hang tám thanh niên xung phong quảng bình bố trạch đường 20 14/11/1972 anh hùng">
+              <tr data-row data-province="qb" data-hay="hang tám cô thanh niên xung phong quảng bình bố trạch đường 20 14/11/1972 anh hùng">
                 <td>03</td>
-                <td><a href="#hang-tam">Hang Tám TNXP</a></td>
+                <td><a href="#hang-tam">Hang Tám Cô</a></td>
                 <td>Quảng Bình</td>
                 <td>H. Bố Trạch, Đường 20</td>
                 <td>Tám TNXP (4 nam, 4 nữ) hy sinh 14.11.1972; tập thể Anh hùng 16.5.2009; tôn tạo 2010.</td>
               </tr>
-              <tr data-row data-province="qb" data-hay="đường trường sơn hồ chí minh quảng bình đường 15 12a 20 10 16 đoàn 559">
+              <tr data-row data-province="qt" data-hay="hệ thống đường trường sơn đường hồ chí minh quảng trị bến tắt đakrông khe hố đoàn 559 đông hà mai xá">
                 <td>04</td>
-                <td><a href="#duong-truong-son">Đường Trường Sơn qua Quảng Bình</a></td>
-                <td>Quảng Bình</td>
-                <td>Toàn tỉnh</td>
-                <td>Đường 15 và bốn tuyến ngang 12A, 20, 10, 16; nút chi viện Bắc – Nam và sang Lào.</td>
-              </tr>
-              <tr data-row data-province="qb" data-hay="bến phà xuân sơn phong nha bố trạch binh trạm 14 động phong nha">
-                <td>05</td>
-                <td><a href="#xuan-son">Bến phà Xuân Sơn</a></td>
-                <td>Quảng Bình</td>
-                <td>H. Bố Trạch</td>
-                <td>Đêm bắc cầu phao, ngày giấu phà trong Động Phong Nha. Di tích quốc gia đặc biệt.</td>
-              </tr>
-              <tr data-row data-province="qb" data-hay="hang lèn hà tuyên hóa thanh hóa a69 trung đoàn 134 2/7/1972">
-                <td>06</td>
-                <td><a href="#len-ha">Hang Lèn Hà</a></td>
-                <td>Quảng Bình</td>
-                <td>H. Tuyên Hóa</td>
-                <td>Trạm cơ vụ A69 (Trung đoàn 134); 13 chiến sĩ hy sinh 02.07.1972 (10 nữ); thông tin khôi phục sau ~1 giờ.</td>
+                <td><a href="#duong-truong-son">Hệ thống Đường Trường Sơn – Đường Hồ Chí Minh</a></td>
+                <td>Quảng Trị</td>
+                <td>Địa bàn tỉnh Quảng Trị</td>
+                <td>Cụm di tích trên địa bàn tỉnh; quốc gia đặc biệt 2013 (QĐ 2383/QĐ-TTg), bổ sung 2018.</td>
               </tr>
               <tr data-row data-province="qt" data-hay="thành cổ quảng trị 81 ngày đêm 1809 1972">
-                <td>07</td>
+                <td>05</td>
                 <td><a href="#thanh-co">Thành cổ Quảng Trị</a></td>
                 <td>Quảng Trị</td>
                 <td>TX. Quảng Trị</td>
                 <td>81 ngày đêm (28.6–16.9.1972); quốc gia đặc biệt 2013 (QĐ 2383/QĐ-TTg).</td>
               </tr>
-              <tr data-row data-province="qt" data-hay="địa đạo vịnh mốc vĩnh linh kim thạch 17 em bé ba tầng">
-                <td>08</td>
-                <td><a href="#vinh-moc">Địa đạo Vịnh Mốc</a></td>
-                <td>Quảng Trị</td>
-                <td>H. Vĩnh Linh</td>
-                <td>Quốc gia đặc biệt 2014 (QĐ 2408/QĐ-TTg); hệ thống làng hầm Vĩnh Linh; “một tấc không đi, một li không rời”.</td>
-              </tr>
               <tr data-row data-province="qt" data-hay="hiền lương bến hải vĩ tuyến 17 vĩnh linh gio linh khát vọng thống nhất">
-                <td>09</td>
+                <td>06</td>
                 <td><a href="#hien-luong">Đôi bờ Hiền Lương – Bến Hải</a></td>
                 <td>Quảng Trị</td>
                 <td>H. Vĩnh Linh và H. Gio Linh</td>
                 <td>Giới tuyến 21 năm (1954–1975); quốc gia đặc biệt 2013 (QĐ 2383/QĐ-TTg).</td>
               </tr>
-              <tr data-row data-province="qt" data-hay="nghĩa trang trường sơn gio linh linh trường 10200 liệt sĩ">
-                <td>10</td>
-                <td><a href="#truong-son">Nghĩa trang Trường Sơn</a></td>
+              <tr data-row data-province="qt" data-hay="địa đạo vịnh mốc vĩnh linh kim thạch 17 em bé ba tầng">
+                <td>07</td>
+                <td><a href="#vinh-moc">Địa đạo Vịnh Mốc</a></td>
                 <td>Quảng Trị</td>
-                <td>H. Gio Linh</td>
-                <td>Điểm trong cụm Đường Trường Sơn – Hồ Chí Minh; quốc gia đặc biệt 2013.</td>
-              </tr>
-              <tr data-row data-province="qt" data-hay="nhà tù lao bảo hướng hóa trung kỳ pháp thuộc">
-                <td>11</td>
-                <td><a href="#lao-bao">Nhà tù Lao Bảo</a></td>
-                <td>Quảng Trị</td>
-                <td>H. Hướng Hóa</td>
-                <td>Nhà tù lớn thời Pháp thuộc tại Trung Kỳ, giam giữ chiến sĩ cách mạng.</td>
+                <td>H. Vĩnh Linh</td>
+                <td>Quốc gia đặc biệt 2014 (QĐ 2408/QĐ-TTg); hệ thống làng hầm Vĩnh Linh; “một tấc không đi, một li không rời”.</td>
               </tr>
             </tbody>
           </table>
@@ -786,7 +659,7 @@ function applyFilter() {
     row.hidden = !show;
     if (show) visible += 1;
   }
-  count.textContent = visible === 11 ? "11 di tích" : `${visible} di tích đang hiện`;
+  count.textContent = visible === 7 ? "7 di tích" : `${visible} di tích đang hiện`;
   empty.classList.toggle("show", visible === 0);
 }
 
@@ -851,7 +724,7 @@ const places = {
     hint: "Nhấp ghim nơi tưởng niệm trên đường 20, rồi chọn Chỉ đường.",
     points: [
       {
-        name: "Hang Tám thanh niên xung phong",
+        name: "Hang Tám Cô",
         lat: 17.5026045,
         lon: 106.2603225,
         note: "Quốc lộ 9G, km 16 đường 20 Quyết Thắng",
@@ -859,50 +732,14 @@ const places = {
     ],
   },
   "duong-truong-son": {
-    hint: "Tuyến đi qua cả tỉnh. Nhấp một điểm có ghim để chỉ đường tới điểm đó.",
+    zoom: 13,
+    hint: "Ghim đặt tại Bến Tắt, một điểm của hệ thống. Nhấp ghim rồi chọn Chỉ đường.",
     points: [
       {
-        name: "Cầu Khe Rinh",
-        lat: 17.7347037,
-        lon: 105.9604805,
-        note: "Đường Hồ Chí Minh, Kim Phú",
-      },
-      {
-        name: "Đèo Đá Đẽo",
-        lat: 17.6480286,
-        lon: 106.0889174,
-        note: "Đài tưởng niệm trên đường Hồ Chí Minh",
-      },
-      {
-        name: "Đền tưởng niệm cầu Long Đại",
-        lat: 17.3256443,
-        lon: 106.6229322,
-        note: "Bến phà Long Đại xưa",
-      },
-    ],
-  },
-  "xuan-son": {
-    zoom: 14,
-    hint: "Nhấp ghim đài tưởng niệm Xuân Sơn, rồi chọn Chỉ đường.",
-    points: [
-      {
-        name: "Bến phà Xuân Sơn",
-        lat: 17.6101954,
-        lon: 106.3166617,
-        note: "Quốc lộ 9G, Phong Nha",
-      },
-    ],
-  },
-  "len-ha": {
-    zoom: 12,
-    hint: "Hang chưa có ghim riêng trên bản đồ mở. Ghim đặt tại Đồng Lê; Chỉ đường mở theo tên di tích trên Google Maps.",
-    points: [
-      {
-        name: "Hang Lèn Hà",
-        lat: 17.8881795,
-        lon: 106.022186,
-        note: "Xã Thanh Hóa, Tuyên Hóa. Ghim này là thị trấn Đồng Lê, cách đường vào hang khoảng vài kilômét.",
-        query: "Hang Lèn Hà, Tuyên Hóa, Quảng Bình",
+        name: "Hệ thống Đường Trường Sơn – Đường Hồ Chí Minh",
+        lat: 16.9574954,
+        lon: 106.9547331,
+        note: "Bến Tắt, Gio Linh — một điểm trên địa bàn tỉnh Quảng Trị",
       },
     ],
   },
@@ -939,30 +776,6 @@ const places = {
         lat: 17.003899,
         lon: 107.0514844,
         note: "Đôi bờ Vĩnh Linh và Gio Linh",
-      },
-    ],
-  },
-  "truong-son": {
-    zoom: 15,
-    hint: "Nhấp ghim nghĩa trang, rồi chọn Chỉ đường.",
-    points: [
-      {
-        name: "Nghĩa trang Liệt sĩ Quốc gia Trường Sơn",
-        lat: 16.9574954,
-        lon: 106.9547331,
-        note: "Bến Tắt, Gio Linh",
-      },
-    ],
-  },
-  "lao-bao": {
-    zoom: 16,
-    hint: "Nhấp ghim khu tưởng niệm nhà tù, rồi chọn Chỉ đường.",
-    points: [
-      {
-        name: "Nhà tù Lao Bảo",
-        lat: 16.6111584,
-        lon: 106.587657,
-        note: "Đường Lê Thế Tiết, Lao Bảo",
       },
     ],
   },
